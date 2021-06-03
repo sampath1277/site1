@@ -4,10 +4,13 @@
 <!-- Apply styles to html elements -->
 <style>
 *{
-margin:0; padding:0; boxsizing:border-box;
+margin:0; 
+padding:0; 
+boxsizing:border-box;
 }
 header{
-width: 100%; height: 100vh;
+width: 100%;
+height: 100vh;
 background-color: white;
 background-repeat: no-repeat;
 background-size: cover;
@@ -22,23 +25,27 @@ align-items: center;
 }
 nav .mainmenu{
 width: 40%;
-display: flex; justify-content: space-around;
+display: flex;
+justify-content: space-around;
 }
 main{
-width: 100%; height: 85vh;
-display: flex; justify-content: center;
+width: 100%;
+height: 85vh;
+display: flex; 
+justify-content: center;
 align-items: center;
 text-align: center;
 }
 section h3{
-letter-spacing: 3px; font-weight: 200;
+letter-spacing: 3px;
+ font-weight: 200;
 }
 section h1{
 text-transform: uppercase;
 }
 section div{
 animation:changeborder 10s infinite linear;
-border: 7px solid red;
+ font-size:48px;
 }
 @keyframes changeborder{
 0%
@@ -49,14 +56,13 @@ border: 7px solid red;
 a {
   background:white;
   color:red;
-  font-size:15px;
+  font-size:18px;
   padding:8px 12px;
-  border-radius:1px;
-  -moz-border-radius:3px;
-  -webkit-border-radius:3px;
+  border-radius:5px;
+  -moz-border-radius:7px;
+  -webkit-border-radius:1px;
   text-decoration:none;
-  
-  display: inline-block; /* Added */
+  display: inline-block; 
 }
 </style>
 </head>
@@ -65,7 +71,7 @@ a {
 <!--Use header to indicate that manu will be a part of header -->
 <header>
 <nav>
-<div class = "logo" <h3 style="color:white;">MYLOGO</h3></div>
+<div class = "logo" <h3 style="color:white;  font-size:28px; padding:40px 140px;"> Hi,  I'm Sampath</h3></div>
 <!--Lets define the menu items now-->
 <div class = "mainmenu">
 
@@ -78,11 +84,9 @@ a {
 <main>
 <section>
 <!--Check out the styling elements for this div class - change_text -->
-<div class = "change_text"><b>WELCOME TO XXX ELECTRONICS</b></div>
-<!--make text italic-->
-<p><i>All your electronics needs in one place</i></p><br>
+<div class = "change_text"><b>Welcome to My Protofilo
 <!--create a button, if there is a form, you can specify an action on click-->
-<input type = button value = "view more">
+
 </section>
 </main>
 </header>
